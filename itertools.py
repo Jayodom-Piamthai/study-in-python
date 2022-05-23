@@ -22,3 +22,6 @@ comb = combinations(congii,2)
 comb_wr = combinations_with_replacement(congii,2)#can use same shits
 print(list(comb))
 print(list(comb_wr))
+
+
+
