@@ -44,7 +44,13 @@ print(list(acm))
 def smallerThanTen(x):
     return x<10
 
-gro = [3,5,9,7,4,78,855]
+gro = [3,5,9,7,4,78,855,69]
 groupOBJ = groupby(gro,key=smallerThanTen)
 for key,value in groupOBJ:
+    print(key,list(value))
+
+friends = [{"name" :'tae' ,"sex":"questionable"} , {"name" : 'mart','sex':"male?"}
+           ,{"name" : 'pooh','sex':"male?"}, {"name" : 'ace','sex':"ace"}]
+groupSEX = groupby(friends,key=lambda x:x['sex'])
+for key,value in groupSEX:
     print(key,list(value))
