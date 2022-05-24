@@ -1,0 +1,1 @@
+#Lambda expression:ultra complexing,but shorten the lines to a simple 1-3 lines of code
