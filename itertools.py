@@ -1,7 +1,7 @@
 #Itertools-collection of tools for handling iterators
 #product,permutations,combunations,accumulate,groupby,infinite itteration
 from itertools import combinations_with_replacement, permutations, product,combinations,accumulate,groupby
-import operator
+
 
 
 
@@ -28,11 +28,15 @@ print(list(comb))
 print(list(comb_wr))
 
 
-#4 accumulate-compute the sums or multiplications
-ac=[15,20,25]
-acx=accumulate(ac)
+#4 accumulate-compute the sums or maximun
+import operator
+
+ac=[15,20,25,35,12,13,14]
+acx=accumulate(ac)#accumulate all stuff
+acm=accumulate(ac, func=max)#max number
 print(ac)
 print(list(acx))
+print(list(acm))
 
 
 
