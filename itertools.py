@@ -1,6 +1,10 @@
 #Itertools-collection of tools for handling iterators
 #product,permutations,combunations,accumulate,groupby,infinite itteration
 from itertools import combinations_with_replacement, permutations, product,combinations,accumulate,groupby
+import operator
+
+
+
 #01-product-all possible powerset combinations
 a =[1,2]
 b=[5,8]
@@ -22,6 +26,14 @@ comb = combinations(congii,2)
 comb_wr = combinations_with_replacement(congii,2)#can use same shits
 print(list(comb))
 print(list(comb_wr))
+
+
+#4 accumulate-compute the sums or multiplications
+ac=[15,20,25]
+acx=accumulate(ac)
+print(ac)
+print(list(acx))
+
 
 
 
