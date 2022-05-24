@@ -39,5 +39,12 @@ print(list(acx))
 print(list(acm))
 
 
+#5 groupby-grouping by definitions
 
+def smallerThanTen(x):
+    return x<10
 
+gro = [3,5,9,7,4,78,855]
+groupOBJ = groupby(gro,key=smallerThanTen)
+for key,value in groupOBJ:
+    print(key,list(value))
