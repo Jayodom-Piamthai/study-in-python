@@ -57,8 +57,9 @@ for key,value in groupSEX:
 
 #6 infinite repeating/cycling
 
-a = [2,3,5,7,9]
-for i in count(10):
+yo = [2,3,5,7,9]
+for i in cycle(yo): #cycling thruu the set endlessly
     print(i)
-    if i==15:
-        break
+
+for i in repeat(9): #repeat same shits
+    print(i)
