@@ -1,6 +1,6 @@
 #Itertools-collection of tools for handling iterators
 #product,permutations,combunations,accumulate,groupby,infinite itteration
-from itertools import combinations_with_replacement, permutations, product,combinations,accumulate,groupby
+from itertools import combinations_with_replacement, permutations, product,combinations,accumulate,groupby,count,cycle,repeat
 
 
 
@@ -40,7 +40,6 @@ print(list(acm))
 
 
 #5 groupby-grouping by definitions
-
 def smallerThanTen(x):
     return x<10
 
@@ -54,3 +53,12 @@ friends = [{"name" :'tae' ,"sex":"questionable"} , {"name" : 'mart','sex':"male?
 groupSEX = groupby(friends,key=lambda x:x['sex'])
 for key,value in groupSEX:
     print(key,list(value))
+
+
+#6 infinite repeating/cycling
+
+a = [2,3,5,7,9]
+for i in count(10):
+    print(i)
+    if i==15:
+        break
