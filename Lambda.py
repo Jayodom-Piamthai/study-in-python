@@ -9,3 +9,7 @@ print(add10(5))
 def add10Func(x):
     return x+10
 print(add10Func(5))
+
+
+mult = lambda x,y:x*y
+print(mult(3,5))
