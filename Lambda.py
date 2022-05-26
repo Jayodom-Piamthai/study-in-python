@@ -20,3 +20,14 @@ pointSortedX = sorted(points2D,key = lambda x:x[0]+x[1])
 print(points2D)
 print(pointSorted)
 print(pointSortedX)
+
+
+#map(func,seq)
+#Example
+a=[1,2,3,4,8,12]
+b=map(lambda x:x+2,a)
+print(list(b))
+c = [x*2 for x in a]
+print(c)
+d=filter(lambda x:x%2==0,a)
+print(list(d))
