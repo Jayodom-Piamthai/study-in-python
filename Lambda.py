@@ -16,5 +16,7 @@ print(mult(3,5))
 
 points2D = [(1,2),(15,1),(5,-1),(10,-4)]
 pointSorted = sorted(points2D,key = lambda x:x[1])
+pointSortedX = sorted(points2D,key = lambda x:x[0]+x[1])
 print(points2D)
 print(pointSorted)
+print(pointSortedX)
