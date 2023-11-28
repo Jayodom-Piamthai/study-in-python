@@ -18,6 +18,11 @@ what.append('purpose')
 print (what)
 
 #tuple
+"""
+awdasdawda
+awdawdawda
+what the hell
+"""
 
 #dictionary
 

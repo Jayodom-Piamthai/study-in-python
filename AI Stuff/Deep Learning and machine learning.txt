@@ -1,0 +1,26 @@
+deep learning/machine learning is for:
+-complex problem with LOTS of rules (ie. pathfinding for cars)
+-problems with changing enviroments (ie. miniMaze,facial recognition)
+-problems with a large collection of data
+
+what DL/ML is NOT good for:
+-problem that need to be throuhly explained
+-problem with low amount of data
+-when traditional approach is better(just do it instead)
+-when error are unacceptable(dl/ml works,but will have a few fails from its unpredictability)
+
+
+    //if it can be turned into numbers and values,AI can solve it//
+                                           ▇▇ ▇▇▇▇ -
+
+
+difference between ML and DL
+
+neural networks
+1.input (data goes in)
+2.hidden layers(node layers of relationship and recognition to sort out stuff)
+3.output(pop goes the answer)
+
+use case of DL
+-sequence to sequence(ie.translation,speech recognition)
+-classification/regression(ie.computer vision,NPL)
