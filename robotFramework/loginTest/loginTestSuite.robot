@@ -28,3 +28,8 @@ loginShouldFailed
 
 *** Settings ***
 Library           SeleniumLibrary
+
+*** Test Cases ***
+TC-empty case
+    [Template]    Test login
+    ${EMPTY}    ${EMPTY}
