@@ -11,3 +11,6 @@ for path in sys.path:
 #pip install robot
 #pip install robotframework-seleniumlibrary
 #pip install -U robotframework-databaselibrary
+
+# python -m robot helloTest.robot 
+# this works if running robot in cmd does not work
