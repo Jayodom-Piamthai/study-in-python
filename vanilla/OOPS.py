@@ -1,6 +1,6 @@
 class Ace:
     'this is me,deadass' #theese are the description of the class
-    name ='Ace'
+    name ='Ace' #class var -> set for every object that comes after
     mood = ''#and this is the attributes,this one is mood
     def __init__(self,mood,activity): #this is "instance variable",with self as a pointer to the object
         self.mood = mood #making a new "object",this one named mood
